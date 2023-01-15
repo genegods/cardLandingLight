@@ -1,0 +1,32 @@
+body{
+  
+    background-color: #e0e0e0;   
+} 
+.heroContainer {
+
+    height: 45vh;
+
+}
+.bgColor{
+    background-color: #fd7426;
+}
+.heroImg{
+    width:34rem;
+    height:25rem;
+}
+.cardContainer{
+    width: auto;
+    height: 35rem;
+}
+
+@media screen and (min-width : 786px){
+    .heroContainer {
+
+        height: 60vh;
+    
+    }
+    .heroImg, allCardsContainer{
+        width: 77rem;
+        height:40rem;
+    }
+}	
